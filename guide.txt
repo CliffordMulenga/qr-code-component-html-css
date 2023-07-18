@@ -1,0 +1,39 @@
+What to consider
+Css:
+-declare font size with "rem" or "em"
+-Dont declare width or height with fixed sizes use max-height instead
+-use mobile first approach 
+    for responsive use
+        @media (min-width:....em)
+        clamp()
+        min()
+
+Text to add(
+    Improve your front-end skills by building projects -> small card heading
+
+    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level -> card text
+)
+
+Project Breakdown
+--------------------
+approach mobile first
+html{
+    wrap all in container
+        make div with class card
+            insert QR img
+            make h3 for small card heading
+            make a p for card paragrah text
+
+}
+
+css - using flexbox{
+    set stlyes for container{
+        center the card{
+            resize the qr img
+            style the small card heading
+            style the card p
+        }
+    }
+}
+
+
